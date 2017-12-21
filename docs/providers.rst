@@ -859,6 +859,27 @@ browsers may require enabling this on localhost and not support by default and
 ask for permission.
 
 
+Microsoft Graph
+-----------------
+
+Microsoft Graph API is the gateway to connect to mail, calendar, contacts,
+documents, directory, devices and more.
+
+Apps can be registered (for consumer key and secret) here
+    https://apps.dev.microsoft.com/
+
+By default, `common` (`organizations` and `consumers`) tenancy is configured
+for the login. To restrict it, change the `tenant` setting as shown below.
+
+.. code-block:: python
+
+    SOCIALACCOUNT_PROVIDERS = {
+        'microsoft': {
+            'tenant': 'organizations',
+        }
+    }
+
+
 Naver
 -----
 
@@ -1389,3 +1410,10 @@ App registration (get your key and secret here)
 
 Development callback URL
     http://localhost:8000
+
+
+Yahoo
+------
+
+Register your OAuth2 app below and enter the resultant client id and secret into admin
+    https://developer.yahoo.com/apps/create/

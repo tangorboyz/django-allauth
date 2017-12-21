@@ -6,7 +6,7 @@ Requirements
 
 - Python 2.7, 3.3, 3.4, or 3.5
 
-- Django (1.8+)
+- Django (1.10+)
 
 - python-openid or python3-openid (depending on your Python version)
 
@@ -46,6 +46,8 @@ Supported Providers
 - Auth0 (OAuth2)
 
 - Authentiq (OAuth2)
+
+- Azure (OAuth2)
 
 - Basecamp (OAuth2)
 
@@ -108,6 +110,8 @@ Supported Providers
 - MailChimp (OAuth2)
 
 - Meetup (OAuth2)
+
+- Microsoft (Graph) (OAuth2)
 
 - Naver (OAuth2)
 
